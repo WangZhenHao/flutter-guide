@@ -74,3 +74,19 @@ flutter config --android-sdk D:\software\androidsdk
  - 打开Vscode, 打开命令面板(F1 or Ctrl+Shift+P or Shift+Cmd+P)
 
  - 输入`flutter new`, 选择` Flutter: New Project`命令
+
+ ### 7.启动项目
+
+ - 打开Vscode, 打开命令面板(F1 or Ctrl+Shift+P or Shift+Cmd+P)
+
+ - 输入` Flutter: Select Device`命令,选择打开一个模拟器
+
+ - 进入`android\gradle\wrapper\gradle-wrapper.properties`文件，修改下载地址，否则下载文件会不成功，打开不了项目
+
+ ```
+ distributionUrl=https\://mirrors.cloud.tencent.com/gradle/gradle-7.6.3-all.zip
+# distributionUrl=https\://services.gradle.org/distributions/gradle-7.6.3-all.zip
+
+ ```
+
+ 
