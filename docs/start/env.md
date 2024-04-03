@@ -5,7 +5,7 @@
 
 > https://docs.flutter.dev/get-started/install/windows/mobile?tab=download
 
-### 1.开发工具
+## 1.开发工具
 1. 安装git https://gitforwindows.org/
 2. vscode
 3. Android Studio https://developer.android.com/studio/install
@@ -25,13 +25,13 @@
 
 4. chorme浏览器
 
-### 2.配置vscode开发工具
+## 2.配置vscode开发工具
 
 - 下载flutter插件`Flutter extension for VS Code.`
 https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
 
 
-### 3.安装Flutter SKD
+## 3.安装Flutter SKD
 > vscode 使用git命令下载安装太慢了，直接下载zip包，修改环境变量
 <p>
   <img src="../.vitepress/public/start/5.png" alt="vitepress init screenshot" style="border-radius:8px">
@@ -46,7 +46,7 @@ https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
 </p>  
 
 
-### 4.配置安装开发环境
+## 4.配置安装开发环境
 
 - 安装设置安卓模拟器
 
@@ -56,7 +56,7 @@ https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
 
  大概就是这些流程，如果有报错就解决报错
 
- ### 5.检查开发环境设置
+ ## 5.检查开发环境设置
 
  ```
  flutter doctor
@@ -73,13 +73,13 @@ flutter config --android-sdk D:\software\androidsdk
  ```
 
 
- ### 6. 创建一个项目
+ ## 6. 创建一个项目
 
  - 打开Vscode, 打开命令面板(F1 or Ctrl+Shift+P or Shift+Cmd+P)
 
  - 输入`flutter new`, 选择` Flutter: New Project`命令
 
- ### 7.启动项目
+ ## 7.启动项目
 
  - 打开Vscode, 打开命令面板(F1 or Ctrl+Shift+P or Shift+Cmd+P)
 
@@ -95,3 +95,7 @@ flutter config --android-sdk D:\software\androidsdk
 
 > 遇到一些项目打不开,估计就是flutter SKD版本或者项目的包,不兼容的原因,尝试更新这些.
  
+- flutter SDK更新命令
+```
+flutter upgrade
+ ```
