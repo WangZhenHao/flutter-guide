@@ -89,4 +89,5 @@ flutter config --android-sdk D:\software\androidsdk
 
  ```
 
+> 遇到一些项目打不开,估计就是flutter SKD版本或者项目的包,不兼容的原因,尝试更新这些.
  

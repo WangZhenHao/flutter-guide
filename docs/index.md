@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: flutter入门导向
-  text: 查看官方文档，视频学习开发一个英语软件
+  text: 查看官方文档，视频学习开发一个应用软件
   tagline: 搭建，语法，开发，部署
   actions:
     - theme: brand

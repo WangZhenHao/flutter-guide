@@ -5,7 +5,7 @@ export default defineConfig({
   base: '/flutter-guide/',
   outDir: '../dist',
   lang: 'en-US',
-  title: 'vue3源码解析',
+  title: 'flutter入门学习',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
@@ -17,10 +17,8 @@ export default defineConfig({
       {
         text: '准备工作',
         items: [
-          { text: '读源码步骤', link: '/start/preface' },
-          { text: 'Vue3项目构建流程', link: '/start/build' },
-          { text: 'es6的新特性', link: '/start/es6' },
-          { text: '联系&讨论', link: '/start/contact' },
+          { text: '环境搭建', link: '/start/env' },
+          { text: 'Dart语法', link: '/start/dart' }
         ],
       }
     ],
