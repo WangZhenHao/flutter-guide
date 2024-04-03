@@ -32,7 +32,11 @@ https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
 
 
 ### 3.安装Flutter SKD
-> vscode 使用git按照太慢了，安装zip包，修改环境变量
+> vscode 使用git命令下载安装太慢了，直接下载zip包，修改环境变量
+<p>
+  <img src="../.vitepress/public/start/5.png" alt="vitepress init screenshot" style="border-radius:8px">
+</p>  
+
 
 - 解压文件到`D:\software\fluttersdk`
 
