@@ -18,7 +18,9 @@ export default defineConfig({
         text: '准备工作',
         items: [
           { text: '环境搭建', link: '/start/env' },
-          { text: 'Dart语法', link: '/start/dart' }
+          { text: 'Dart语法', link: '/start/dart' },
+          { text: 'widget', link: '/start/widget' },
+          { text: '构建部署', link: '/start/deployment' }
         ],
       }
     ],
